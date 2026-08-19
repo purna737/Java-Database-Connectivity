@@ -17,7 +17,7 @@ public class App2 {
         	Class.forName("com.mysql.cj.jdbc.Driver");
         	
         	//STEP 2 - ESTABLISH CONNECTION WITH THE DATABASE SERVER
-        	conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/sqlproject", "root" , "Root@735");
+        	conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/sqlproject", "root" , "######");
 		
 		
 		//STEP 3 - CREATE A STATEMENT ON THE DATABASE  CONNECTION
