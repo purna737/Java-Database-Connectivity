@@ -31,7 +31,7 @@ public class App2
 
         var SqlQuery = "INSERT INTO EMPLOYEE1(firtsname,lastname,firstname,lastname,dateofjoin,emailaddress,loginpassword) VALUES (?,?,?,?,?)";
 
-        try ( var conn = getConnection("jdbc:mysql://localhost:3306/jdbc", "root" , "Root@735");
+        try ( var conn = getConnection("jdbc:mysql://localhost:3306/jdbc", "root" , "*****");
 
               var stmt= conn.prepareStatement(SqlQuery,PreparedStatement.RETURN_GENERATED_KEYS);)
         {
